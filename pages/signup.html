@@ -1,0 +1,93 @@
+<!-- signup page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+ 
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="../index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="oppurtunities.html">Oppurtunities</a>
+        <!-- <div class="dropdown">
+          <button class="dropbtn">Catogries
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Google Internship</a>
+            <a href="#">Microsoft Internship</a>
+            <a href="#">Coursera Courses</a>
+            <a href="#">Udemy</a>
+          </div>
+        </div>  -->
+    
+        <div class="login-container">
+          <a href="signup.html">Sign Up</a>
+              <a href="login.html">Login</a>
+      </div>
+    
+      </div>
+
+
+    <form action="">
+        <div class="container1">
+
+            <div class="img">
+                <img src="/img/login_img.jpg" alt="" height="500px">
+            </div>
+
+            <div class="form">
+
+                <div class="one">
+                    <!-- <div class="row">
+                        <p>Username</p>
+                        <input type="text" placeholder="Username" id="username">
+                    </div> -->
+                    <div class="row">
+                        <p>Email</p>
+                        <input type="email" placeholder="email" id="email">
+                    </div>
+                    <div class="row">
+                        <p>Password</p>
+                        <input type="password" placeholder="Password1" id="pw">
+                    </div>
+
+                    <div class="row">
+                        <p>Confirm Password</p>
+                        <input type="password" placeholder="Confirm Password" id="con_pw">
+                    </div>
+
+                    <div class="row hide" id="show">
+                        <p>Passwords don't match</p>
+                    </div>
+
+                    <div class="row checkbox">
+                        <input type="checkbox" name="agree" id="agree" style="margin:10% 0 0 0;"> I agree to the terms & conditions.
+                    </div>
+
+                    <div class="row hide" id="show1">
+                        <p>please fill the required fields</p>
+                    </div>
+
+                    <div class="row button">
+                        <button id="signup1" >Sign Up</button>
+                    </div>
+
+                </div>
+            </div>
+    </form>
+    <script src="../js/signup.js"></script>
+</body>
+
+</html>
