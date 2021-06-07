@@ -15,6 +15,8 @@ We help undergraduate students find their appropriate opporunities nationally an
 ## Live Project:
 https://fatimayousif.github.io/Tribe10-finalproject/
 
+Note: We're fixing the issue in this live Project as it seems to not applying CSS or navigation between pages. Meanwhile It's recommended to locally open this website for better understanding else the screenshots below are attached for the pages' guide. 
+
 ## Pages guide:
 
 ### Main page:
